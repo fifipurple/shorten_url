@@ -1,3 +1,12 @@
 // Place all the styles related to the Urls controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+a:link.purple, a:visited.purple {
+  color: #9932CC;
+}
+
+a:hover.purple {
+  color: #9932CC;
+  background-color: #D8BFD8;
+}

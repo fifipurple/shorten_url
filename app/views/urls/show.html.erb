@@ -1,14 +1,13 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Short url:</strong>
-  <%= @url.short_url %>
-</p>
-
-<p>
-  <strong>Long url:</strong>
+  <strong>Long URL:</strong>
   <%= @url.long_url %>
 </p>
 
-<%= link_to 'Edit', edit_url_path(@url) %> |
-<%= link_to 'Back', urls_path %>
+<p>
+  <strong>Short URL:</strong>
+  <%= @short_url_prefix + @url.short_url %>
+</p>
+
+<%= link_to 'Back to URL List', urls_list_path %>
